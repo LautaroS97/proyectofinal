@@ -69,6 +69,15 @@ h4 {
   position: absolute;
   left: 0; }
 
+.derechos {
+  margin-bottom: 0rem;
+}
+
+.seguimiento {
+  margin: auto;
+  margin-top: 1rem;
+}
+
 .lineicons {
   background-color: #f59f15;
   display: flex;
@@ -168,7 +177,7 @@ img {
 }
 
 /*universo*/
-.advertencia {
+.mensajepoderes {
   text-align: center;
   color: black;
   font-family: 'Cinzel', serif;
@@ -177,8 +186,9 @@ img {
   margin-bottom: 1rem;
   margin-top: 1rem; }
 
-.deslizar {
+.sugerencia {
   color: white;
+  font-family: 'Marcellus', serif;
   text-align: center;
   margin-bottom: 1rem; }
 

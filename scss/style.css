@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/*Fondo*/
+* {
+  background-color: #000000;
+}
+
+/*navbar*/
+/*Color especial de la página*/
+.logo {
+  width: 65px;
+  -webkit-animation: girar 20s linear infinite;
+          animation: girar 20s linear infinite;
+  background-color: transparent;
+  margin-right: 3rem;
+}
+
+@-webkit-keyframes girar {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes girar {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+h3 {
+  font-family: 'Cinzel', serif;
+  margin: 1rem;
+  color: #f59f15;
+}
+
+h4 {
+  font-family: 'Marcellus', serif;
+  margin: 0.4rem;
+  margin-left: 2rem;
+  color: white;
+}
+
+.iluminar:hover {
+  color: #f59f15;
+}
+
+/*pagetitle*/
+/*Color especial de la página*/
+.page {
+  background-color: #f59f15;
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+}
+
+.page h1 {
+  background-color: #f59f15;
+  color: black;
+  font-family: 'Cinzel', serif;
+  height: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*footer*/
+/*Color especial de la página*/
+/*letra cinzelada*/
+.cinzel, .footer h2, .footer h4, .buybuttom, .galdeimg {
+  color: black;
+  font-family: 'Cinzel', serif;
+}
+
+.footer {
+  background-color: #f59f15;
+  height: 15rem;
+  padding: 4rem;
+  text-align: center;
+  border-top: black 5px solid;
+}
+
+.footer h2 {
+  background-color: #f59f15;
+}
+
+.footer h3 {
+  background-color: #f59f15;
+  color: black;
+  font-family: 'Marcellus', serif;
+}
+
+.footer h4 {
+  background-color: #f59f15;
+}
+
+.fondofooter {
+  background-color: #f59f15;
+  width: 100%;
+  height: 7rem;
+  position: absolute;
+  left: 0;
+}
+
+.derechos {
+  margin-bottom: 0rem;
+}
+
+.seguimiento {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.lineicons {
+  background-color: #f59f15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.iconredes {
+  background-color: #f59f15;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.iconredes:hover {
+  border: none;
+  opacity: 75%;
+}
+
+.iconredes img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+/*página principal*/
+/*Color especial de la página*/
+/*letra cinzelada*/
+.cinzel, .footer h2, .footer h4, .buybuttom, .galdeimg {
+  color: black;
+  font-family: 'Cinzel', serif;
+}
+
+.encabezado:hover {
+  opacity: 70%;
+}
+
+.buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.buybuttom {
+  width: 260px;
+  height: 70px;
+  background-color: #f59f15;
+  margin-right: 1rem;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: black double 5px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.buybuttom h3 {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.buybuttom:hover {
+  background-color: black;
+  color: #f59f15;
+  border-color: #f59f15;
+  border: solid 5px;
+}
+
+.galeria {
+  margin: auto;
+  width: 90%;
+  max-width: 800px;
+  padding-bottom: 1rem;
+}
+
+.galdeimg {
+  margin: auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #f59f15;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/*sinopsis*/
+.sinopsis {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Marcellus', serif;
+  text-align: justify;
+  font-size: 1.095rem;
+}
+
+.intro {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 40rem;
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    height: 20rem;
+  }
+}
+
+/*universo*/
+.mensajepoderes {
+  text-align: center;
+  color: black;
+  font-family: 'Cinzel', serif;
+  background-color: #f59f15;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.sugerencia {
+  color: white;
+  font-family: 'Marcellus', serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/*autor*/
+.bio {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Marcellus', serif;
+  text-align: justify;
+  font-size: 1.15rem;
+}
+
+.fotoautor {
+  max-width: 50rem;
+}
+
+/*contacto*/
+.formulario {
+  max-width: 60rem;
+  color: white;
+  padding: 3rem;
+  margin: auto;
+  font-family: 'Marcellus', serif;
+}
+
+.contactbuttom {
+  margin-top: 1rem;
+}
+
+.selectlist {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
