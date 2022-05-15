@@ -1,0 +1,66 @@
+/*Color especial de la página*/
+$dorado: #f59f15;
+
+/*letra cinzelada*/
+.cinzel {
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+
+.encabezado{
+    
+    &:hover{
+    opacity: 70%;
+    }
+
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.buybuttom{
+    width: 260px;
+    height: 70px;
+    background-color: $dorado;
+    margin-right: 1rem;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: black double 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    @extend .cinzel;
+
+    h3{
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    &:hover{
+        background-color: black;
+        color: $dorado;
+        border-color: $dorado;
+        border: solid 5px;
+    }
+    
+}
+.galeria{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    padding-bottom: 1rem;
+}
+.galdeimg{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background-color: $dorado;
+    margin-bottom: 1rem;
+    @extend .cinzel;
+    width: 100%;
+}

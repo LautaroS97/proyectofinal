@@ -1,0 +1,16 @@
+/*Color especial de la página*/
+$dorado: #f59f15;
+
+.page{
+    background-color: $dorado;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    h1{
+    background-color: $dorado;
+    color: black;
+    font-family: 'Cinzel', serif;
+    height: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    }
+}

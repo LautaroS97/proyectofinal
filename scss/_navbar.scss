@@ -1,0 +1,33 @@
+/*Color especial de la página*/
+$dorado: #f59f15;
+
+.logo{
+    width: 65px;
+    animation: girar 20s linear infinite;
+    background-color: transparent;
+    margin-right: 3rem;
+}
+@keyframes girar{
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
+h3{
+    font-family: 'Cinzel', serif;
+    margin: 1rem;
+    color: $dorado;
+}
+h4{
+    font-family: 'Marcellus', serif;
+    margin: 0.4rem;
+    margin-left: 2rem;
+    color: white;
+}
+.iluminar{
+
+    &:hover{
+    color: $dorado;
+    }
+    
+}
